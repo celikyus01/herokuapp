@@ -1,0 +1,119 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2021-07-25T20:57:50.073Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1856600000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.task.step_definitions.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 4,
+        "name": "Scenario-1: Infinite Scroll",
+        "description": "",
+        "id": "infinite-scroll;scenario-1:-infinite-scroll",
+        "after": [
+          {
+            "result": {
+              "duration": 96819000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.task.step_definitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1407125000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "the user is in main page",
+            "match": {
+              "location": "com.task.step_definitions.FormAuthStepDefs.the_user_is_in_main_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 234991000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "the user navigates to \"Key Presses\" page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Key Presses\"",
+                  "offset": 22
+                }
+              ],
+              "location": "com.task.step_definitions.FormAuthStepDefs.theUserNavigatesToPage(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 305475000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "the user sends below keys and verify them",
+            "match": {
+              "location": "com.task.step_definitions.KeyPressesStepDefs.the_user_sends_below_keys_and_verify_them(java.util.Map\u003cjava.lang.String, java.lang.String\u003e)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "A",
+                  "A"
+                ]
+              },
+              {
+                "cells": [
+                  "a",
+                  "a"
+                ]
+              },
+              {
+                "cells": [
+                  "/",
+                  "SLASH"
+                ]
+              },
+              {
+                "cells": [
+                  ",",
+                  "COMMA"
+                ]
+              }
+            ],
+            "keyword": "When "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@wip3"
+          }
+        ]
+      }
+    ],
+    "name": "Infinite Scroll",
+    "description": "",
+    "id": "infinite-scroll",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/TC3_KeyPresses.feature",
+    "tags": []
+  }
+]
